@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="26016" started-at="2018-09-27T19:58:13Z" finished-at="2018-09-27T19:58:39Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="26016" started-at="2018-09-27T19:58:13Z" finished-at="2018-09-27T19:58:39Z">
+      <class name="mentoring.messaging">
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:mentoring.messaging@7a9273a8]" name="invokeBrowser" is-config="true" duration-ms="14514" started-at="2018-09-27T19:58:13Z" finished-at="2018-09-27T19:58:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="mesaging()[pri:0, instance:mentoring.messaging@7a9273a8]" name="mesaging" duration-ms="11456" started-at="2018-09-27T19:58:27Z" finished-at="2018-09-27T19:58:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mesaging -->
+      </class> <!-- mentoring.messaging -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
