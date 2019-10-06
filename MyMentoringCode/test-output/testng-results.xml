@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="70299" started-at="2019-01-06T13:35:58Z" finished-at="2019-01-06T13:37:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="70299" started-at="2019-01-06T13:35:58Z" finished-at="2019-01-06T13:37:08Z">
+      <class name="com.brightside.mentoring.testcases.SignInPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.brightside.mentoring.testcases.SignInPageTest@5c7fa833]" name="setUp" is-config="true" duration-ms="31184" started-at="2019-01-06T19:05:58Z" finished-at="2019-01-06T19:06:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="signInPageTitleTest()[pri:0, instance:com.brightside.mentoring.testcases.SignInPageTest@5c7fa833]" name="signInPageTitleTest" duration-ms="73" started-at="2019-01-06T19:06:29Z" finished-at="2019-01-06T19:06:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.brightside.mentoring.testcases.SignInPageTest@5c7fa833]" name="tearDown" is-config="true" duration-ms="875" started-at="2019-01-06T19:06:29Z" finished-at="2019-01-06T19:06:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.brightside.mentoring.testcases.SignInPageTest@5c7fa833]" name="setUp" is-config="true" duration-ms="14791" started-at="2019-01-06T19:06:30Z" finished-at="2019-01-06T19:06:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="brightsideLogoTest()[pri:1, instance:com.brightside.mentoring.testcases.SignInPageTest@5c7fa833]" name="brightsideLogoTest" duration-ms="613" started-at="2019-01-06T19:06:45Z" finished-at="2019-01-06T19:06:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brightsideLogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.brightside.mentoring.testcases.SignInPageTest@5c7fa833]" name="tearDown" is-config="true" duration-ms="1007" started-at="2019-01-06T19:06:46Z" finished-at="2019-01-06T19:06:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.brightside.mentoring.testcases.SignInPageTest@5c7fa833]" name="setUp" is-config="true" duration-ms="18201" started-at="2019-01-06T19:06:47Z" finished-at="2019-01-06T19:07:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="signInTest()[pri:2, instance:com.brightside.mentoring.testcases.SignInPageTest@5c7fa833]" name="signInTest" duration-ms="2742" started-at="2019-01-06T19:07:05Z" finished-at="2019-01-06T19:07:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.brightside.mentoring.testcases.SignInPageTest@5c7fa833]" name="tearDown" is-config="true" duration-ms="706" started-at="2019-01-06T19:07:08Z" finished-at="2019-01-06T19:07:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.brightside.mentoring.testcases.SignInPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

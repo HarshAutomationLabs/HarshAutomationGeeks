@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testing-1.0.dtd">
+<suite name="Brightside Mentoring">
+	<test name="Mentoring Test Cases">
+		<classes>
+			<class name="com.brightside.mentoring.testcases.SignInPageTest"/>
+		</classes>
+	</test>
+</suite>
