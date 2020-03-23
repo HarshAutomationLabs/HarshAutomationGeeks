@@ -2,9 +2,8 @@ package com.brightside.mentoring.pages;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
-import org.testng.Assert;
-
 import com.brightside.mentoring.base.TestBase;
 import com.brightside.mentoring.utils.TestUtils;
 
@@ -38,6 +37,11 @@ public class MyAccountPage extends TestBase{
 	@FindBy(xpath = "//input[@type='submit']")
 	WebElement updateAccountBtn;
 	
+	// Initializing the page objects
+	public MyAccountPage() {
+		PageFactory.initElements(driver, this);
+	}
+		
 	public void accountUpdateDetails(String firstName, String lastName, String email, String phoneNumber, String postCode) {
 		firstNameField.sendKeys(firstName);
 		lastNameField.sendKeys(lastName);
