@@ -16,7 +16,7 @@ import com.brightside.mentoring.utils.TestUtils;
 public class TestBase {
 
 	public static WebDriver driver;
-	public Properties prop;
+	public static Properties prop;
 	public final By PRELOADER = By.id("preloader");
 
 	public TestBase() {

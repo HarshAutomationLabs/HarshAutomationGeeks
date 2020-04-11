@@ -22,6 +22,15 @@ public class TestUtils extends TestBase {
 	public TestUtils() {
 		super();
 	}
+	
+	public String getUserRole() {
+		return prop.getProperty("role");
+	}
+	
+	public static void navigateTo(String URL) {
+		driver.navigate().to(prop.getProperty("BASE_URL") + URL);
+		//driver.navigate().to("http://dev.angular.brightsidementoring.tudip.uk/sign-in");
+	}
 
 	// Wait until element present
 	public static void waitUntilElementPresent(WebElement Element) {

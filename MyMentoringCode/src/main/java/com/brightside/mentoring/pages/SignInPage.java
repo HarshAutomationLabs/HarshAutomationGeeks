@@ -25,8 +25,8 @@ public class SignInPage extends TestBase {
 	public SignInPage() {
 		PageFactory.initElements(driver, this);
 	}
-
-	// Actions:
+	
+	// Actions:	
 	public String validateLoginPageTitle() {
 		return driver.getTitle();
 	}
@@ -35,10 +35,10 @@ public class SignInPage extends TestBase {
 		return brightsideLogo.isDisplayed();
 	}
 
-	public MentoringHomepage signIn(String userEmail, String userPassword) {
+	public FeedsPage signIn(String userEmail, String userPassword) {
 		email_or_phoneNumber.sendKeys(userEmail);
 		password.sendKeys(userPassword);
 		signInBtn.click();
-		return new MentoringHomepage();	
+		return new FeedsPage();	
 	}
 }
