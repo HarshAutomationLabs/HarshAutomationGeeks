@@ -17,7 +17,7 @@ public class TestBase {
 
 	public static WebDriver driver;
 	public static Properties prop;
-	public final By PRELOADER = By.id("preloader");
+	public final static By PRELOADER = By.id("preloader");
 
 	public TestBase() {
 		try {

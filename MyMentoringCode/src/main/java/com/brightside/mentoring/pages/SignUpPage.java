@@ -40,6 +40,9 @@ public class SignUpPage extends TestBase {
 	@FindBy(xpath = "//input[@formcontrolname='year']")
 	WebElement year_field;
 	
+	@FindBy(xpath = "//input[@type='submit']")
+	WebElement submit_btn;
+	
 	// Initializing the page objects:
 	public SignUpPage() {
 		PageFactory.initElements(driver, this);
@@ -50,6 +53,7 @@ public class SignUpPage extends TestBase {
 		return driver.getTitle();
 	}
 
+	@SuppressWarnings("unlikely-arg-type")
 	public boolean signUpWithProjectCode(String code) {
 		project_code.sendKeys(code);
 		if(join_project_btn.getClass().equals("join-project-btn")){
@@ -60,8 +64,9 @@ public class SignUpPage extends TestBase {
 		}
 	}
 
+	@SuppressWarnings("unlikely-arg-type")
 	public FeedsPage signUp(String firstname, String lastname, String email, String password, String postcode,
-			String date, String month, String year) {
+						  String date, String month, String year) {
 		first_name_field.sendKeys(firstname);
 		last_name_field.sendKeys(lastname);
 		email_field.sendKeys(email);
@@ -70,7 +75,12 @@ public class SignUpPage extends TestBase {
 		new Select(date_field).selectByVisibleText(date);
 		new Select(month_field).selectByVisibleText(month);
 		new Select(year_field).selectByVisibleText(year);
-		return new FeedsPage();
+		if(submit_btn.getClass().equals("signup-btn disabled")){
+			return null;
+		}else {
+			submit_btn.click();
+			return new FeedsPage();
+		}
 	}	
 	
 }
